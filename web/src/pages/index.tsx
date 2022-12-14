@@ -67,7 +67,7 @@ export default function Home(props: HomeProps) {
           <div className='flex items-center gap-6'> 
             <Image src={ iconCheck } alt="" /> 
             <div className='flex flex-col'>
-              <span className='text-2xl font-bold'>+{props.poolCount}</span>
+              <span className='text-2xl font-bold'>+{ props.poolCount }</span>
               <span>Bolões criados</span>
             </div>
           </div>
